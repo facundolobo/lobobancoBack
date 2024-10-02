@@ -1,0 +1,174 @@
+{  
+  "HTTP_Status_Codes": {  
+    "Informational Informativos (1xx)": {  
+      "100": {  
+        "name": "Continue",  
+        "description": "El servidor ha recibido la solicitud inicial y el cliente puede continuar enviando el cuerpo de la solicitud."  
+      },  
+      "101": {  
+        "name": "Switching Protocols",  
+        "description": "El servidor acepta cambiar a un protocolo diferente según lo solicitado por el cliente."  
+      }  
+    },  
+    "Successful Exitosos (2xx)": {  
+      "200": {  
+        "name": "OK",  
+        "description": "Todo está normal; la solicitud se ha procesado correctamente."  
+      },  
+      "201": {  
+        "name": "Created",  
+        "description": "Se ha creado un nuevo recurso como resultado de la solicitud."  
+      },  
+      "202": {  
+        "name": "Accepted",  
+        "description": "La solicitud ha sido aceptada para su procesamiento, pero el procesamiento no se ha completado."  
+      },  
+      "203": {  
+        "name": "Non-Authoritative Information",  
+        "description": "El servidor está proporcionando información que no es completamente autorizada."  
+      },  
+      "204": {  
+        "name": "No Content",  
+        "description": "La solicitud se ha procesado correctamente, pero no hay contenido que devolver."  
+      },  
+      "205": {  
+        "name": "Reset Content",  
+        "description": "El cliente debe restablecer la vista que está utilizando."  
+      },  
+      "206": {  
+        "name": "Partial Content",  
+        "description": "El servidor está enviando solo una parte del recurso solicitado."  
+      }  
+    },  
+    "Redirection Redirección (3xx)": {  
+      "300": {  
+        "name": "Multiple Choices",  
+        "description": "Hay múltiples opciones para el recurso solicitado; el cliente debe elegir una."  
+      },  
+      "301": {  
+        "name": "Moved Permanently",  
+        "description": "El recurso solicitado ha sido movido permanentemente a una nueva URL."  
+      },  
+      "302": {  
+        "name": "Found",  
+        "description": "El recurso se ha encontrado temporalmente en una ubicación diferente."  
+      },  
+      "303": {  
+        "name": "See Other",  
+        "description": "El cliente debe realizar una solicitud a otra URL para obtener el recurso."  
+      },  
+      "304": {  
+        "name": "Not Modified",  
+        "description": "El recurso no ha cambiado desde la última solicitud."  
+      },  
+      "305": {  
+        "name": "Use Proxy",  
+        "description": "El recurso debe ser accedido a través de un proxy."  
+      },  
+      "306": {  
+        "name": "Unused",  
+        "description": "Este código no se utiliza actualmente."  
+      },  
+      "307": {  
+        "name": "Temporary Redirect",  
+        "description": "El recurso se ha movido temporalmente; el cliente no debe actualizar la URL."  
+      }  
+    },  
+    "Client Error Error del Cliente (4xx)": {  
+      "400": {  
+        "name": "Bad Request",  
+        "description": "El servidor no pudo entender la solicitud debido a una sintaxis incorrecta."  
+      },  
+      "401": {  
+        "name": "Unauthorized",  
+        "description": "Se requiere autenticación para acceder al recurso."  
+      },  
+      "402": {  
+        "name": "Payment Required",  
+        "description": "Este código no se utiliza comúnmente, pero se reserva para futuras necesidades de pago."  
+      },  
+      "403": {  
+        "name": "Forbidden",  
+        "description": "El servidor se niega a proporcionar el recurso, incluso si el cliente está autenticado."  
+      },  
+      "404": {  
+        "name": "Not Found",  
+        "description": "El recurso solicitado no existe en el servidor."  
+      },  
+      "405": {  
+        "name": "Method Not Allowed",  
+        "description": "El método de solicitud no está permitido para el recurso solicitado."  
+      },  
+      "406": {  
+        "name": "Not Acceptable",  
+        "description": "El recurso solicitado no es aceptable según los encabezados de aceptación del cliente."  
+      },  
+      "407": {  
+        "name": "Proxy Authentication Required",  
+        "description": "Se requiere autenticación a través de un proxy."  
+      },  
+      "408": {  
+        "name": "Request Timeout",  
+        "description": "El servidor agotó el tiempo de espera para recibir la solicitud del cliente."  
+      },  
+      "409": {  
+        "name": "Conflict",  
+        "description": "Hay un conflicto con el estado actual del recurso."  
+      },  
+      "410": {  
+        "name": "Gone",  
+        "description": "El recurso solicitado ya no está disponible y no se espera que vuelva."  
+      },  
+      "411": {  
+        "name": "Length Required",  
+        "description": "El servidor requiere que se especifique la longitud del contenido en la solicitud."  
+      },  
+      "412": {  
+        "name": "Precondition Failed",  
+        "description": "Una de las condiciones especificadas en los encabezados de la solicitud ha fallado."  
+      },  
+      "413": {  
+        "name": "Request Entity Too Large",  
+        "description": "El tamaño de la entidad de la solicitud es demasiado grande para ser procesado por el servidor."  
+      },  
+      "415": {  
+        "name": "Unsupported Media Type",  
+        "description": "El tipo de medio de la solicitud no es soportado por el servidor."  
+      },  
+      "416": {  
+        "name": "Request Range Not Satisfiable",  
+        "description": "El rango solicitado no se puede satisfacer."  
+      },  
+      "417": {  
+        "name": "Expectation Failed",  
+        "description": "El servidor no puede cumplir con los requisitos de la expectativa del cliente."  
+      }  
+    },  
+    "Server Error Error del Servidor (5xx)": {  
+      "500": {  
+        "name": "Internal Server Error",  
+        "description": "Ha ocurrido un error en el servidor al procesar la solicitud."  
+      },  
+      "501": {  
+        "name": "Not Implemented",  
+        "description": "El servidor no soporta la funcionalidad requerida para cumplir con la solicitud."  
+      },  
+      "502": {  
+        "name": "Bad Gateway",  
+        "description": "El servidor, al actuar como puerta de enlace, recibió una respuesta inválida de un servidor upstream."  
+      },  
+      "503": {  
+        "name": "Service Unavailable",  
+        "description": "El servidor no está disponible temporalmente, generalmente debido a sobrecarga o mantenimiento."  
+      },  
+      "504": {  
+        "name": "Gateway Timeout",  
+        "description": "El servidor, al actuar como puerta de enlace, no recibió una respuesta a tiempo de un servidor upstream."  
+      },  
+      "505": {  
+        "name": "HTTP Version Not Supported",  
+        "description": "El servidor no soporta la versión HTTP utilizada en la solicitud."  
+      }  
+    }  
+  }  
+}
